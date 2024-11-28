@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h4>Ans4:What are super global variables in PHP? List at least five super global arrays and their
+        use.</h4>
+    <ul>
+        <li>
+            PHP Superglobal variables are built-in variables always available in all scopes.</li>
+         <li>Some PHP variables are "superglobals," which means they are always available, <br>
+            regardless of scope, and can be accessed from any file, class, or function without <br>
+            doing anything special.
+        </li>
+        <h3>The PHP superglobal variables</h3>
+         <h5>1.$GLOBALS:</h5>
+        <li>An associative array containing references to all variables currently defined in the <br>
+            global scope of the script.</li>
+         <li>Usage Example: Accessing a global variable inside a function</li>   
+        <h5>2. $_SERVER:</h5> 
+        <li>An associative array containing information such as headers, paths, and script locations.<br>
+             The entries in this array are created by the web server.</li>
+        <li>Usage Example: Getting the server and execution environment information.</li>
+        <h5>3.$_REQUEST:</h5> 
+        <li>An associative array that by default contains the contents of $_GET, $_POST, <br>
+            and $_COOKIE. This array is useful for collecting data sent via HTTP request</li>
+        <li>Usage Example: Accessing form data sent via GET or POST methods.</li>
+        <h5>4.$_POST:</h5>
+         <li>An associative array of variables passed to the current script via the HTTP POST method.<br>
+             Often used to collect form data.</li>
+          <li>Usage Example: Accessing form data submitted via POST.</li>
+          <h5>5.$_GET:</h5>
+         <li>An associative array of variables passed to the current script via the URL parameters <br>
+            (query string). Commonly used to pass data in URLs.</li>
+          <li>Usage Example: Accessing data sent in the URL.</li>
+    </ul>
+    
+</body>
+</html>
